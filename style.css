@@ -1,0 +1,162 @@
+
+@keyframes BackgroundTransition1{
+    0% {background-position: 1% 0%;}
+    50% {background-position: 99% 100%;}
+    100% {background-position: 1% 0%;}
+}
+@keyframes BackgroundTransition2{
+    0% {background-position: 1% 0%;}
+    50% {background-position: 50% 50%;}
+    100% {background-position: 99% 100%;}
+}
+@keyframes megjelenés {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+}
+
+@keyframes fonyito{
+    0%{background-image: url(/képek/c9976fc3a92540856bb957a76818875d.gif);}
+100%{background-image:url(/képek/abstract-wide-panoramic-image-glowing-brain-with-polygonal-mesh-colorful-tech-background-artificial-intelligence-machine-learning-concept-3d-rendering_670147-43913.png) ;}
+}
+
+@keyframes mozgasfel-le{
+    0%, 100%{transform: translateY(0%);
+        opacity: 0;;}
+    50%{transform: translateY(-5%);
+    opacity: 1;}
+    
+}
+
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+body{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(4, 4, 25);
+    color: white;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.fonyito{
+    height: 700px;
+    padding-top: 200px;
+    background-image:url(/képek/abstract-wide-panoramic-image-glowing-brain-with-polygonal-mesh-colorful-tech-background-artificial-intelligence-machine-learning-concept-3d-rendering_670147-43913.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: fonyito 15s  ease-in;
+    
+    
+}
+
+.agy{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+    animation: mozgasfel-le 15s ease infinite;
+    
+}
+
+.focim{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+}
+h1.focim{
+    font-size: 130px;
+    background-image: linear-gradient(90deg, rgba(1, 1, 47, 0.173), rgb(0, 0, 31),rgb(0, 0, 31), rgba(0, 0, 34, 0.071));
+    width: 100%;
+    position: relative;
+    
+}
+h2.focim{
+    font-size: 90px;
+    margin-top: 20px ;
+    margin-bottom: 250px;
+    position: relative;
+    background-image: linear-gradient(90deg, rgba(1, 1, 47, 0), rgba(0, 0, 31, 0.419),rgba(0, 0, 31, 0.436), rgba(0, 0, 34, 0));
+    width: 80%;
+}
+h3.focim{
+    margin-bottom:90px ;
+
+}
+
+
+
+.kartya{
+    width: 60%;
+    margin: auto;
+    border: 2px solid rgb(0, 200, 255);
+    border-radius: 10px;
+    margin-bottom: 150px;
+    height: 500px;
+    box-shadow: 1px 1px 60px 4px rgba(0, 200, 255, 0.87);
+    
+}
+
+.kartya h3, .kartya p{
+    text-align: center;
+}
+.kartya p{
+    width: 60%;
+    float: right;
+    font-size: 24px;
+}
+.kartya h3{
+    font-size: 40px;
+}
+.kartya img{
+    float: left;
+    color: aliceblue;
+    width: 30%;
+    height: 70%;
+    position: relative;
+    bottom: 80px;
+    margin-left: 10px;
+    background-color: rgb(0, 200, 255);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 200, 255, 0.829);
+}
+
+.kartya .gbutton{
+    float: right;
+    background-image:linear-gradient(90deg, rgb(0, 68, 255), rgb(0, 149, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255));
+    
+    background-size:400% 400% ;
+    width:350px;
+    height: 120px;
+    margin-top: 80px;
+    margin-right: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    border-radius: 45px;
+    box-shadow: rgb(0, 200, 255) 1px 1px 31px 1px;
+}
+
+.kartya .gbutton:hover{
+animation: BackgroundTransition1 10s ease ;
+background-color: yellow;
+box-shadow: rgb(0, 200, 255) 1px 1px 51px 5px;
+transition: 2s;
+}
