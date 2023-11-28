@@ -1,2 +1,2 @@
-# Nits
-a github egy szar
+# 11A_Web_Project_Nits
+Nits lászló Javascript
