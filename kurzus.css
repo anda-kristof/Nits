@@ -1,0 +1,51 @@
+body{
+    margin: auto 5%;
+}
+
+.row{
+    display: flex;
+}
+
+.container{
+    height: 500px;
+    width: 50%;
+    border: 1px black solid;
+    border-radius: 30px;
+}
+
+.big_container{
+    height: 500px;
+    width: 100%;
+    border: 1px black solid;   
+    border-radius: 30px;
+}
+
+.container2{
+    height: 500px;
+    width: 50%;
+}
+
+.sikeres_block{
+    height: 700px;
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 40px;
+}
+
+.kurzus_block{
+    height: 600px;
+    width: 30%;
+    border: 3px black solid;
+    border-radius: 50px;
+}
+
+.big_container2{
+    height: 100px;
+    width: 100%;
+    border: 1px black solid;   
+    border-radius: 30px;
+}
+
+.row2{
+    display: grid;
+}
