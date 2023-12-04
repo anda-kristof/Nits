@@ -2,15 +2,57 @@ body{
     margin: auto 5%;
 }
 
-.row{
-    display: flex;
+.logo{
+    width: 160px;
+    display: block;
+    margin: 0px auto;
 }
 
-.container{
+h1, h2, h3, p{
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  button{
+    margin: 50px auto;
+    display: block;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.row{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container-right{
     height: 500px;
-    width: 50%;
+    width: 47%;
     border: 1px black solid;
     border-radius: 30px;
+}
+
+.container-right h2, .container-right h1, .container-left h2, .container-left h1{
+    margin: 3%;
+    font-size: 30px;
+}
+
+.container-left{
+    height: 500px;
+    width: 47%;
+    border: 1px black solid;
+    border-radius: 30px;
+    margin-left: 6%;
 }
 
 .big_container{
@@ -18,6 +60,12 @@ body{
     width: 100%;
     border: 1px black solid;   
     border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.big_container h1, .big_container h2{
+    margin: 3%;
+    font-size: 50px
 }
 
 .container2{
@@ -25,18 +73,62 @@ body{
     width: 50%;
 }
 
+.container2 p{
+    font-size: 30px;
+    text-align: right;
+}
+
 .sikeres_block{
     height: 700px;
     width: 100%;
     border: 3px black solid;
     border-radius: 40px;
+    margin-bottom: 75px;
+    display: flex;
+}
+
+.sikeres_block_inner_right{
+    height: 100%;
+    width: 47%;
+    margin-left: 3%;
+}
+
+.sikeres_block_inner_right img{
+    display: block;
+    margin: 10%;
+    width: 75%;
+    height: 80%;
+}
+
+.sikeres_block_inner_left{
+    height: 100%;
+    width: 47%;
+    margin-right: 3%;
+}
+
+.sikeres_block_inner_left h1{
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.sikeres_block_inner_left p{
+    font-size: 40px;
+    text-align: center;
+    margin: 10%;
 }
 
 .kurzus_block{
+    display: block;
     height: 600px;
     width: 30%;
     border: 3px black solid;
     border-radius: 50px;
+    margin: 25px auto;
+}
+
+li{
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .big_container2{
@@ -44,6 +136,19 @@ body{
     width: 100%;
     border: 1px black solid;   
     border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+/* idk miert nem mukszik
+    .big_container2 h2{
+    font-size: 100px;
+    text-align: right;
+    color: aqua;
+} */
+
+.big_container2 p{
+    font-size: 50px;
+    text-align: left;
 }
 
 .row2{
