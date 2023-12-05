@@ -1,5 +1,8 @@
 body{
     margin: auto 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5A5A5A;
+    color: whitesmoke;
 }
 
 .logo{
@@ -10,6 +13,11 @@ body{
 
 h1, h2, h3, p{
     text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 video{
@@ -21,13 +29,39 @@ video{
 
   button{
     margin: 50px auto;
+    height: 50px;
+    width: 15%;
     display: block;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px black solid;
+    transition: 2s;
   }
+
+  button:hover{
+    color: goldenrod;
+    border: 2px goldenrod solid;
+    transition: 1s;
+    text-shadow: gold 1px 0 10px;
+    box-shadow: inset -1px -1px gold,
+    inset -1px 0 gold,
+    inset  1px 0 gold,
+    inset 1px 1px 0 gold;
+    background-color: lightyellow;
+}
 
   img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .fodder{
+    width: 100%;
+    height: 100px;
   }
 
 .row{
@@ -38,8 +72,14 @@ video{
 .container-right{
     height: 500px;
     width: 47%;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 30px;
+    transition: 2s;
+}
+
+.container-right:hover{
+    transition: 2s;
+    border: 2px white solid;
 }
 
 .container-right h2, .container-right h1, .container-left h2, .container-left h1{
@@ -50,17 +90,29 @@ video{
 .container-left{
     height: 500px;
     width: 47%;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 30px;
     margin-left: 6%;
+    transition: 2s;
+}
+
+.container-left:hover{
+    transition: 2s;
+    border: 2px white solid;
 }
 
 .big_container{
     height: 500px;
     width: 100%;
-    border: 1px black solid;   
+    border: 2px black solid;   
     border-radius: 30px;
     margin-bottom: 50px;
+    transition: 2s;
+}
+
+.big_container:hover{
+        transition: 2s;
+        border: 2px white solid;
 }
 
 .big_container h1, .big_container h2{
@@ -78,6 +130,11 @@ video{
     text-align: right;
 }
 
+#left_float{
+    font-size: 60px;
+    text-align: left;
+}
+
 .sikeres_block{
     height: 700px;
     width: 100%;
@@ -85,6 +142,7 @@ video{
     border-radius: 40px;
     margin-bottom: 75px;
     display: flex;
+    transition: 2s;
 }
 
 .sikeres_block_inner_right{
@@ -98,6 +156,11 @@ video{
     margin: 10%;
     width: 75%;
     height: 80%;
+}
+
+.sikeres_block:hover{
+    transition: 2s;
+    border: 3px white solid;
 }
 
 .sikeres_block_inner_left{
@@ -124,6 +187,30 @@ video{
     border: 3px black solid;
     border-radius: 50px;
     margin: 25px auto;
+    font-size: larger;
+    transition: 2s;
+}
+
+.kurzus_block:hover{
+    transition: 2s;
+    border: 3px goldenrod solid;
+    color: goldenrod;
+    text-shadow: gold 1px 0 10px;
+}
+
+.kurzus_block button{
+    width: 40%;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.kurzus_block:hover button{
+    color: goldenrod;
+    border: 2px goldenrod solid;
+    transition: 1s;
+    text-shadow: gold 1px 0 10px;
+    box-shadow: inset 0px 3px gold;
+    background-color: lightyellow;
 }
 
 li{
@@ -137,6 +224,8 @@ li{
     border: 1px black solid;   
     border-radius: 30px;
     margin-bottom: 30px;
+    transition: 2s;
+    border: 2px black solid;
 }
 
 /* idk miert nem mukszik
@@ -149,6 +238,10 @@ li{
 .big_container2 p{
     font-size: 50px;
     text-align: left;
+}
+
+.big_container2:hover{
+    border: 2px white solid;
 }
 
 .row2{
