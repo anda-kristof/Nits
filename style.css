@@ -40,6 +40,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(4, 4, 25);
     color: white;
+    
 }
 
 .hidden{
@@ -104,13 +105,15 @@ h3.focim{
 
 
 .kartya{
-    width: 60%;
+    width: 50%;
     margin: auto;
     border: 2px solid rgb(0, 200, 255);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 150px;
     height: 500px;
     box-shadow: 1px 1px 60px 4px rgba(0, 200, 255, 0.87);
+    
+    
     
 }
 
@@ -124,15 +127,16 @@ h3.focim{
 }
 .kartya h3{
     font-size: 40px;
+    text-indent: 150px;
 }
 .kartya img{
     float: left;
     color: aliceblue;
     width: 30%;
-    height: 70%;
+    height: 60%;
     position: relative;
     bottom: 80px;
-    margin-left: 10px;
+    margin-left: 25px;
     background-color: rgb(0, 200, 255);
     padding: 10px;
     border-radius: 50px;
@@ -144,8 +148,8 @@ h3.focim{
     background-image:linear-gradient(90deg, rgb(0, 68, 255), rgb(0, 149, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255),rgb(0, 200, 255));
     
     background-size:400% 400% ;
-    width:350px;
-    height: 120px;
+    width:300px;
+    height: 100px;
     margin-top: 80px;
     margin-right: 60px;
     font-size: 60px;
@@ -171,3 +175,81 @@ transition: 2s;
 #varazslokepzoh3{
     margin-left: 130px;
 }
+.kartyaszekcio{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translateZ(-20px) scale(3);
+    margin-top: 1500px;
+}
+.sideimgl{
+    width: 18%;
+    position: absolute;
+    float: left;
+    transform: translateZ(20px) translateX(530px) scale(0.5);
+    z-index: -1;
+    /* box-shadow: rgba(0, 200, 255, 0.02) 0 0 100px 2px; */
+    
+}
+.sideimgr{
+    width: 20%;
+    position: absolute;
+    /* box-shadow: rgba(0, 200, 255, 0.036) 0 0 100px 2px; */
+    
+    transform: translateZ(20px) translateX(1000px) scale(0.5) translateY(180px);
+    z-index: -1;
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    transform-style:preserve-3d;
+    
+    
+}
+#vv1{
+    transform: translateZ(18px) translateX(480px) translateY(-20px) scale(0.4);
+    
+    opacity: 0.5;
+}
+
+#vv2{
+    transform: translateZ(20px) translateX(580px) translateY(100px) scale(0.7);
+    opacity: 1;
+}
+#vv3{
+    transform: translateZ(19px) translateX(500px) translateY(60px) scale(0.6);
+    opacity: 0.9;
+}
+#vv4{
+    transform: translateZ(16px) translateX(1050px) translateY(-140px) scale(1) translateY(180px);
+}
+#vv5{
+    transform: translateZ(18px) translateX(1000px) translateY(-100px) scale(1) translateY(180px);
+}
+#vv6{
+    transform: translateZ(19px) translateX(960px) translateY(30px) scale(0.2) translateY(180px);
+}
+#nk2{
+    transform: translateZ(18px) translateX(1050px) scale(0.6) translateY(65px);
+    opacity: 0.6;
+}
+#nk3{
+    transform: translateZ(20px) translateX(1000px) scale(0.5) translateY(180px);
+}
+#fb1{
+    transform: translateZ(20px) translateX(540px) scale(0.4) translateY(70px);
+}
+#fb2{
+    transform: translateZ(18px) translateX(1050px) scale(0.55) translateY(210px);
+    opacity: 0.6;
+    border-radius: 40px;
+}
+#fb3{
+    transform: translateZ(19px) translateX(1075px) scale(0.3) translateY(-50px);
+    opacity: 0.9;
+}
+#fb4{
+    transform: translateZ(20px) translateX(970px) scale(0.4) translateY(260px);
+}
+
