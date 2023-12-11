@@ -1,16 +1,18 @@
 @keyframes Nitsek{
-    0% {}
-    25% {}
-    50% {}
-    75% {}
-    100% {}
+    0% {background-image: url(/képek/WE_NEED_YOU.png);}
+    50% {background-image: url(/képek/kurzus_bg_2.jpg);}
+    75% {background-image: url(/képek/kurzus_bg_3.jpg);}
+    100% {background-image: url(/képek/WE_NEED_YOU.png);}
 }
 
 body{
     margin: auto 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #5A5A5A;
     color: whitesmoke;
+    animation: Nitsek 25s infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .logo{
