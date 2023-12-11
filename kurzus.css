@@ -1,3 +1,11 @@
+@keyframes Nitsek{
+    0% {}
+    25% {}
+    50% {}
+    75% {}
+    100% {}
+}
+
 body{
     margin: auto 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +36,7 @@ video{
   }
 
   button{
-    margin: 0px auto;
+    margin: 30px auto 0px auto;
     height: 50px;
     width: 15%;
     display: block;
@@ -107,6 +115,22 @@ video{
       background-color: #608da2;
 }
 
+
+@keyframes Elobukkan{
+    from {opacity: 0.1; }
+    to {opacity: 1; }
+}
+
+#bevezeto{
+    width: 100%;
+    height: 150px;
+    font-size: larger;
+    opacity: 0.1;
+    animation-name: Elobukkan;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
 .big_container{
     height: 500px;
     width: 100%;
@@ -138,9 +162,26 @@ video{
     text-align: right;
 }
 
+@keyframes LeftFlyIn{
+    from {transform: translateX(-200%);}
+    to {transform: translateX(0%);}
+}
+
+@keyframes RightFlyIn{
+    from {transform: translateX(200%);}
+    to {transform: translateX(0%);}
+}
+
 #left_float{
+    overflow: hidden;
     font-size: 60px;
     text-align: left;
+    animation: LeftFlyIn 5s forwards;
+}
+
+#right_float{
+    overflow: hidden;
+    animation: RightFlyIn 8s forwards;
 }
 
 .sikeres_block{
@@ -236,6 +277,7 @@ li{
     border-radius: 30px;
     transition: 2s;
     border: 2px black solid;
+    margin-bottom: 50px;
 }
 
 /* idk miert nem mukszik
