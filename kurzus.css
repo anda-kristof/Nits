@@ -1,0 +1,303 @@
+@keyframes Nitsek{
+    0% {background-image: url(/képek/WE_NEED_YOU.png);}
+    50% {background-image: url(/képek/kurzus_bg_2.jpg);}
+    75% {background-image: url(/képek/kurzus_bg_3.jpg);}
+    100% {background-image: url(/képek/WE_NEED_YOU.png);}
+}
+
+body{
+    margin: auto 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    animation: Nitsek 25s infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 160px;
+    display: block;
+    margin: 0px auto;
+}
+
+h1, h2, h3, p{
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  button{
+    margin: 30px auto 0px auto;
+    height: 50px;
+    width: 15%;
+    display: block;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px black solid;
+    transition: 2s;
+  }
+
+  button:hover{
+    color: goldenrod;
+    border: 2px goldenrod solid;
+    transition: 1s;
+    text-shadow: gold 1px 0 10px;
+    box-shadow: inset -1px -1px gold,
+    inset -1px 0 gold,
+    inset  1px 0 gold,
+    inset 1px 1px 0 gold;
+    background-color: lightyellow;
+}
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fodder{
+    width: 100%;
+    border-top: 3px lightblue solid;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+.row{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container-right{
+    height: 500px;
+    width: 47%;
+    border: 2px black solid;
+    border-radius: 30px;
+    transition: 2s;
+    background-color: #536878;
+}
+
+.container-right:hover{
+    transition: 2s;
+    border: 2px white solid;
+      background-color: #608da2;
+}
+
+.container-right h2, .container-right h1, .container-left h2, .container-left h1{
+    margin: 3%;
+    font-size: 30px;
+}
+
+.container-left{
+    height: 500px;
+    width: 47%;
+    border: 2px black solid;
+    border-radius: 30px;
+    margin-left: 6%;
+    transition: 2s;
+    background-color: #536878;
+}
+
+.container-left:hover{
+    transition: 2s;
+    border: 2px white solid;
+      background-color: #608da2;
+}
+
+
+@keyframes Elobukkan{
+    from {opacity: 0.1; }
+    to {opacity: 1; }
+}
+
+#bevezeto{
+    width: 100%;
+    height: 150px;
+    font-size: larger;
+    opacity: 0.1;
+    animation-name: Elobukkan;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.big_container{
+    height: 500px;
+    width: 100%;
+    border: 2px black solid;   
+    border-radius: 30px;
+    transition: 2s;
+    background-color: #536878;
+    margin-bottom: 50px;
+}
+
+.big_container:hover{
+        transition: 2s;
+        border: 2px white solid;
+          background-color: #608da2;
+}
+
+.big_container h1, .big_container h2{
+    margin: 3%;
+    font-size: 50px
+}
+
+.container2{
+    height: 500px;
+    width: 50%;
+}
+
+.container2 p{
+    font-size: 30px;
+    text-align: right;
+}
+
+@keyframes LeftFlyIn{
+    from {transform: translateX(-200%);}
+    to {transform: translateX(0%);}
+}
+
+@keyframes RightFlyIn{
+    from {transform: translateX(200%);}
+    to {transform: translateX(0%);}
+}
+
+#left_float{
+    overflow: hidden;
+    font-size: 60px;
+    text-align: left;
+    animation: LeftFlyIn 5s forwards;
+}
+
+#right_float{
+    overflow: hidden;
+    animation: RightFlyIn 8s forwards;
+}
+
+.sikeres_block{
+    height: 700px;
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 40px;
+    display: flex;
+    transition: 2s;
+    background-color: #536878;
+    margin-bottom: 50px;
+}
+
+.sikeres_block_inner_right{
+    height: 100%;
+    width: 47%;
+    margin-left: 3%;
+}
+
+.sikeres_block_inner_right img{
+    display: block;
+    margin: 10%;
+    width: 75%;
+    height: 80%;
+}
+
+.sikeres_block:hover{
+    transition: 2s;
+    border: 3px white solid;
+      background-color: #608da2;
+}
+
+.sikeres_block_inner_left{
+    height: 100%;
+    width: 47%;
+    margin-right: 3%;
+}
+
+.sikeres_block_inner_left h1{
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.sikeres_block_inner_left p{
+    font-size: 40px;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+.kurzus_block{
+    display: block;
+    height: 650px;
+    width: 30%;
+    border: 3px black solid;
+    border-radius: 50px;
+    margin: 0px auto;
+    font-size: larger;
+    transition: 2s;
+    background-color: #536878;
+}
+
+.kurzus_block:hover{
+    transition: 2s;
+    border: 3px goldenrod solid;
+    color: goldenrod;
+    text-shadow: gold 1px 0 10px;
+}
+
+.kurzus_block button{
+    width: 40%;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.kurzus_block:hover button{
+    color: goldenrod;
+    border: 2px goldenrod solid;
+    transition: 1s;
+    text-shadow: gold 1px 0 10px;
+    box-shadow: inset 0px 3px gold;
+    background-color: lightyellow;
+}
+
+li{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.big_container2{
+    height: 100px;
+    width: 100%;
+    border: 1px black solid;   
+    border-radius: 30px;
+    transition: 2s;
+    border: 2px black solid;
+    margin-bottom: 50px;
+}
+
+/* idk miert nem mukszik
+    .big_container2 h2{
+    font-size: 100px;
+    text-align: right;
+    color: aqua;
+} */
+
+.big_container2 p{
+    font-size: 50px;
+    text-align: left;
+}
+
+.big_container2:hover{
+    border: 2px white solid;
+}
+
+.row2{
+    display: grid;
+}
