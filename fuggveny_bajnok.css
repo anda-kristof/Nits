@@ -1,15 +1,29 @@
 body{
     margin: auto 5%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #left_half{
-    width: 50%;
+    width: 49.5%;
     float: left;
+    height: 100%;
 }
 
-#left_half img{
+#upperHalf1{
+    width: 100%;
+    height: 65vh;    
+}
 
+#bottom_quarter{
+    width: 100%;
+    height: 25vh;
+    border-top: 8px black double;
+}
+
+#bottom_quarter p{
+    margin: auto 10%;
+    font-size: 20px;
 }
 
 #nehezseg{
@@ -20,6 +34,7 @@ body{
 #right_half{
     width: 50%;
     float: right;
+    border-left: 5px black solid;
 }
 
 #kerdes{
@@ -30,24 +45,43 @@ h1{
     font-size: 50px;
 }
 
-#upperHalf{
+#upperHalf2{
     width: 100%;
     height: 40vh;
+}
+
+@keyframes clock{
+    0%{background-color: lightgreen;}
+    50%{background-color: yellow;}
+    100%{background-color: red;}
+}
+
+#timer{
+    margin: auto 45%;
+    height: min-content;
+    width: 12%;
+    font-size: 50px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    animation: clock 10s forwards;
 }
 
 .container{
     width: 100%;
     height: 25vh;
+    display: flex;
+    font-size: 20px;
 }
 
 .valasz1{
-    display: inline-block;
+    display: grid;
+    place-items: center;
     margin: auto 10%;
     border: 3px black solid;
-    width: 25%;
+    width: 30%;
     background-color: aliceblue;
-    height: 25%;
-    transition: 5s;
+    height: 40%;
+    transition: 1s;
 }
 
 .valasz1:hover{
@@ -56,12 +90,14 @@ h1{
 }
 
 .valasz2{
-    display: inline-block;
+    display: grid;
+    place-items: center;
     margin: auto 10%;
     border: 3px black solid;
-    width: 25%;
+    width: 30%;
     background-color: aliceblue;
-    height: 25%;
+    height: 40%;
+    transition: 1s;
 }
 
 .valasz2:hover{
