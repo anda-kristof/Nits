@@ -1,11 +1,11 @@
 body{
-    margin: auto 5%;
+    padding: 0% 5%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #left_half{
-    width: 49.5%;
+    width: 50%;
     float: left;
     height: 100%;
 }
@@ -13,6 +13,11 @@ body{
 #upperHalf1{
     width: 100%;
     height: 65vh;    
+}
+
+#upperHalf1 img{
+    width:  auto;
+    height: 100%;
 }
 
 #bottom_quarter{
@@ -26,7 +31,14 @@ body{
     font-size: 20px;
 }
 
+.marginfix{
+    margin: auto;
+}
+
 #nehezseg{
+    width: 50%;
+    margin: auto 25%;
+    height: 10%;
     color: green;
     font-size: 20px;
 }
@@ -34,11 +46,21 @@ body{
 #right_half{
     width: 50%;
     float: right;
-    border-left: 5px black solid;
+    height: 100%;
 }
 
 #kerdes{
     font-size: 30px;
+    width: 90%;
+    height: 20%;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
+    border: 3px black solid;
+    margin: 5% auto;
+    display:table;
 }
 
 h1{
@@ -47,23 +69,34 @@ h1{
 
 #upperHalf2{
     width: 100%;
-    height: 40vh;
+    height: 45vh;
 }
 
 @keyframes clock{
-    0%{background-color: lightgreen;}
-    50%{background-color: yellow;}
-    100%{background-color: red;}
+    0%{color: lightgreen;}
+    50%{color: yellow;}
+    100%{color: red;}
 }
 
 #timer{
     margin: auto 45%;
     height: min-content;
-    width: 12%;
+    width: min-content;
     font-size: 50px;
-    background-color: lightgreen;
+    color: lightgreen;
+    background-image: url(/képek/Clock.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 50px;
-    animation: clock 10s forwards;
+    animation: clock 12s forwards;
+    text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+
+}
+
+.BottomHalf{
+    width: 100%;
+    height: 35vh;
 }
 
 .container{
@@ -74,33 +107,45 @@ h1{
 }
 
 .valasz1{
+    display:table;
     display: grid;
     place-items: center;
-    margin: auto 10%;
+    margin: auto 5%;
     border: 3px black solid;
-    width: 30%;
+    width: 40%;
     background-color: aliceblue;
     height: 40%;
     transition: 1s;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
 }
 
 .valasz1:hover{
-    background-color: aqua;
+    background-color: rgb(90, 90, 200);
     border: 3px black solid;
 }
 
 .valasz2{
+    display:table;
     display: grid;
     place-items: center;
-    margin: auto 10%;
+    margin: auto 5%;
     border: 3px black solid;
-    width: 30%;
+    width: 40%;
     background-color: aliceblue;
     height: 40%;
     transition: 1s;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
 }
 
 .valasz2:hover{
-    background-color: aqua;
+    background-color: rgb(90, 90, 200);
     border: 3px black solid;
 }
