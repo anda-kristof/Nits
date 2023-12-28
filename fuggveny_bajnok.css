@@ -1,0 +1,201 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+#left_half{
+    width: 48.5%;
+    float: left;
+    height: 100%;
+}
+
+#upperHalf1{
+    width: 100%;
+    height: 65vh;    
+}
+
+#upperHalf1 img{
+    width:  auto;
+    height: 100%;
+}
+
+#bottom_quarter{
+    width: 100%;
+    height: 35vh;
+    border-top: 8px darkblue double;
+    background-color: rgb(74, 120, 161);
+    color: white;
+}
+
+#bottom_quarter p{
+    margin: auto 10%;
+    font-size: 20px;
+}
+
+#Cutter{
+    height: 100vh;
+    width: 3%;
+    background-image: url(/képek/Cutter.png);
+    background-size: contain;
+}
+
+.marginfix{
+    margin: auto;
+}
+
+#Title{
+    background-image: url(/képek/burning.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-position: center;
+    animation: rainbow 10s ease-in-out infinite;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+@keyframes rainbow {
+    from {
+      color: red;
+    }
+    17% {
+      color: orange;
+    }
+    34% {
+      color: yellow;
+    }
+    51% {
+      color: green;
+    }
+    68% {
+      color: blue;
+    }
+    82%
+    {
+        color: indigo;
+    }
+    92%
+    {
+        color: violet;
+    }
+    100%{
+        color: red;
+    }
+  }
+
+#nehezseg{
+    width: 50%;
+    margin: auto 25%;
+    height: 10%;
+    color: green;
+    font-size: 20px;
+}
+
+#right_half{
+    width: 48.5%;
+    float: right;
+    height: 100%;
+    background-color: rgb(154, 206, 206);
+}
+
+#kerdes{
+    font-size: 30px;
+    width: 90%;
+    height: 20%;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
+    border: 3px black solid;
+    margin: 5% auto;
+    display:table;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#upperHalf2{
+    width: 100%;
+    height: 50vh;
+}
+
+@keyframes clock{
+    0%{color: lightgreen;}
+    50%{color: yellow;}
+    100%{color: red;}
+}
+
+#timer{
+    margin: auto 45%;
+    height: 50%;
+    width: 10%;
+    font-size: 50px;
+    color: lightgreen;
+    background-image: url(/képek/Clock.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    animation: clock 12s forwards;
+    text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+
+}
+
+.BottomHalf{
+    width: 100%;
+    height: 50vh;
+}
+
+.container{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.valasz1{
+    display:table;
+    display: grid;
+    place-items: center;
+    margin: auto 5%;
+    border: 3px black solid;
+    width: 40%;
+    background-color: aliceblue;
+    height: 40%;
+    transition: 1s;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
+}
+
+.valasz1:hover{
+    background-color: rgb(90, 90, 200);
+    border: 3px black solid;
+}
+
+.valasz2{
+    display:table;
+    display: grid;
+    place-items: center;
+    margin: auto 5%;
+    border: 3px black solid;
+    width: 40%;
+    background-color: aliceblue;
+    height: 40%;
+    transition: 1s;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(200, 227, 239);
+}
+
+.valasz2:hover{
+    background-color: rgb(90, 90, 200);
+    border: 3px black solid;
+}
