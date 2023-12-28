@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Függvény Bajnok</title>
     <link rel="stylesheet" href="fuggveny_bajnok.css">
+    <script src="FuggvenyBajnok.js" defer></script>
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 
         <div id="bottom_quarter">
             <h1>Laci Live reaction:</h1>
-            <p>Hát fiacskám ez nagyon lassú volt hogy leszel így Függvény Bajnok? Most azonnal sétálj az asztal körül 1 kört!!!</p>
+            <p id="reaction">Hát fiacskám ez nagyon lassú volt hogy leszel így Függvény Bajnok? Most azonnal sétálj az asztal körül 1 kört!!!</p>
         </div>
 
     </div>
@@ -34,27 +35,27 @@
                 <p class="marginfix">Nehézség: Könnyű</p>
             </div>
             <div id="timer">
-                <p class="marginfix">12</p>
+                <p class="marginfix" id="counter">12</p>
             </div>
         </div>
 
 
         <div class="BottomHalf">
                 <div class="container">
-                    <div class="valasz1">
+                    <div class="valasz1" id="box1">
                         <p>Nits László</p>
                     </div>
 
-                    <div class="valasz2">
+                    <div class="valasz2" id="box2">
                         <p>Nitsus Laslous Maximus</p>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" id="box3">
                     <div class="valasz1">
                         <p>Chuck Laci</p>
                     </div>
 
-                    <div class="valasz2">
+                    <div class="valasz2" id="box4">
                         <p>Nitsubishi</p>
                     </div>
                 </div>
