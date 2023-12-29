@@ -321,9 +321,192 @@ input:checked + .slider:before {
     
 }
 
+#trexrun{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+    height: 300px;
+    background-image: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+/* trex run */
+
+#desert{
+    position: relative;
+    bottom: 0px;
+    background-image: url('img/t-rex-background.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 200px;
+    animation: hattermozgas 3000s infinite linear;
+    -webkit-animation: hattermozgas 3000s infinite linear;
+    
+}
+
+.dino{
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url('img/t-rex.png');
+}
+
+.cactus{
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url('img/cacti.png');
+}
+#alert{
+    font-size: 30px;
+    position: relative;
+}
+
+@keyframes hattermozgas{
+    from{
+        background-position: 70000%;
+    }
+    to{
+        background-position: 0%;
+    }
+}
+
+/* trex run */
+.karaktervalaszt{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    height: 400px;
+    border: rgb(0, 193, 0) solid 2px;
+    box-shadow: 2px 2px 30px 3px rgb(0, 193, 0);
+    display: none;
+    background-color: rgb(0, 24, 0);
+}
+.karaktervalaszt h3{
+    text-align: center;
+    font-size: 40px;
+}
+.karaktervalaszt .card{
+    width: 50%;
+}
+.karaktervalaszt h2{
+    font-size: 40px;
+    position: absolute;
+}
+.cardkarakter{
+    float: left;
+} 
+.cardakadály{
+    float: right;
+}
+#karaktergomb{
+    height: 60px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.kcontent{
+    display:inline-block;
+    margin-left: 42%;
+    width: 100px;
+    transform: scale(2);
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+   
+}
+.nyil{
+    position: relative;
+    bottom: 20px;
+    transform: scale(1.5);
+}
+.nyil:hover{
+ color: greenyellow;
+ transition: 0.5s;
+ cursor: pointer;
+}
+
+/* molegame */
+.molegame h1{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 100px;
+
+}
+
+.molegame h2.score{
+    float: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.molegame h2.bestScore{
+    float: left;
+    font-size: 30px;
+    margin-bottom: 50px;
 
 
+    
+}
+.molegame h2.timeLeft{
+    clear: both;
+    font-size: 30px;
+    margin-bottom: 50px;
 
+
+}
+
+.molegame .wrapper{
+    width: 620px;
+    margin: 0 auto;
+}
+
+.molegame .square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.molegame .grid{
+    width: 620px;
+    height: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: center;
+    align-content: center;
+}
+
+.molegame .mole{
+    
+    background-size: cover;
+}
+
+.molegame .startGame{
+    position: relative;
+    top: -340px;
+    width: 620px;
+    text-align: center;
+    background-color: green;
+    font-size: 40px;
+    color: white;
+    padding: 10px 0;
+    cursor: pointer;
+
+}
+.vveffect{
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 20, 0), rgb(0, 20, 0), rgb(0, 0, 0));
+     /* background-image: url(img/vvswitchbackground.png); */
+    animation: hattermozgas 3000s infinite linear;
+    -webkit-animation: hattermozgas 3000s infinite linear;
+    
+}
+.nitscurzor{
+    cursor: url(img/NL_300x300.png), auto;
+}
 
 
 
