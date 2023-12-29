@@ -431,10 +431,14 @@ input:checked + .slider:before {
 }
 
 /* molegame */
+.molegame{
+    height: 1500px;
+}
 .molegame h1{
     text-align: center;
     font-size: 65px;
     margin-bottom: 100px;
+    height: auto;
 
 }
 
@@ -462,6 +466,7 @@ input:checked + .slider:before {
 .molegame .wrapper{
     width: 620px;
     margin: 0 auto;
+    overflow: visible;
 }
 
 .molegame .square{

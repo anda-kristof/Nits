@@ -207,6 +207,16 @@ transition: 2s;
     
     
 }
+.ismmeg{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ismmegengem{
+    width: 70%;
+    font-size: 150%;
+    margin: auto;
+    margin-bottom: 200px;
+}
 #vv1{
     transform: translateZ(18px) translateX(480px) translateY(-20px) scale(0.4);
     
@@ -222,13 +232,13 @@ transition: 2s;
     opacity: 0.9;
 }
 #vv4{
-    transform: translateZ(16px) translateX(1050px) translateY(-140px) scale(1) translateY(180px);
+    transform: translateZ(16px) translateX(1080px) translateY(-140px) scale(0.7) translateY(180px);
 }
 #vv5{
-    transform: translateZ(18px) translateX(1000px) translateY(-100px) scale(1) translateY(180px);
+    transform: translateZ(18px) translateX(1050px) translateY(-100px) scale(0.6) translateY(180px);
 }
 #vv6{
-    transform: translateZ(19px) translateX(960px) translateY(30px) scale(0.2) translateY(180px);
+    transform: translateZ(19px) translateX(960px) translateY(20px) scale(0.2) translateY(180px);
 }
 #nk2{
     transform: translateZ(18px) translateX(1050px) scale(0.6) translateY(65px);
