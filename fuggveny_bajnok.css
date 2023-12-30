@@ -94,11 +94,16 @@ body{
     width: 60%;
     margin: auto 20%;
     height: 75px;
-    line-height: 75px;
+    line-height: 50px;
     color: green;
     font-size: 20px;
     font-weight: bold;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+#QuestionsLeft{
+    color: white;
 }
 
 #right_half{
