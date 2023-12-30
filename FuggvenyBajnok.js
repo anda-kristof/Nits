@@ -6,8 +6,10 @@ let Box3 = document.querySelector("#box3");
 let Box4 = document.querySelector("#box4");
 let Said = 1;
 let NitsAudio = true; // same here
-let audioActive = true; // csakhogy ne halljam a nits jumpscaret egyfolytában
+let audioActive = false; // csakhogy ne halljam a nits jumpscaret egyfolytában
 let TappedNum = 0;
+let Phone = false;
+let Joeover = false;
 
 const NegativeNitsReactions = ["Nagyon lassan válaszolsz gyerekem , nagyanyám is gyorsabb volt nálad! FAILURE!!!!", "Hát fiacskám ez nagyon lassú ,hogy leszel így Függvény Bajnok? Most azonnal sétálj az asztal körül 1 kört!!!", "Ha ilyen sebességgel haladsz tovább akkor egy alá alát fogsz kapni!","Azt hiszed hogy Chuck Norris vagy aki nulla után is tud quizt csinálni?","Nagyon csalódott vagyok benned fiacskám, remélem szabad idődben többet tanulsz"];
 const NeutralNItsReaction = ["Gyerekem megy ez idő döntened kell!", "Ihaj Csuhaj a hétszáz mindenit, repül az idő de te még nem döntöttél!", "Ilyen egyszerű kérdésre nem kéne ennyi időt szánni", "Ennyi idő alatt már többször elosztottam volna a nulát", "Remélem nem fogsz csalódást okozni nekem..."]
@@ -21,9 +23,6 @@ function Counter() {
         document.querySelector("#audio").innerHTML = '<audio src="/Boss.mp3" controls="controls" style="display: none;" autoplay></audio>';
         NitsAudio = true;
     }
-    if (num < 0) {
-        // alert("VESZTETTÉL BITCH");
-    }
     if (num < 18 && Said == 0) {
     let randomNum = Math.floor(Math.random() * 5);
     document.querySelector("#reaction").innerHTML = NeutralNItsReaction[randomNum];   
@@ -34,11 +33,22 @@ function Counter() {
     let randomNum = Math.floor(Math.random() * 5);
     document.querySelector("#reaction").innerHTML = NegativeNitsReactions[randomNum];
     }
-    if (num < 0 && audioActive == false){
+    if (num < 0 && audioActive == false && Joeover == false){
         document.querySelector("#audio").innerHTML = '<audio src="/Whistle.mp3" controls="controls" style="display: none;" autoplay></audio>';
+        document.querySelector("#SCARY").innerHTML = '<img src="/képek/jumpcare.png" id="jumpscare">';
+        document.querySelector("#SCARY").innerHTML += '<a href="quiz_oldal.html" id="ReTry"><button>Vissza!</button></a>';
         audioActive = true;
     }
-    document.querySelector("#counter").innerHTML = num;
+    if (TappedNum == 9 && Phone == false) {
+        Phone = true;
+        document.querySelector("#audio").innerHTML = '<audio src="/Phone.mp3" controls="controls" style="display: none;" autoplay></audio>';
+        document.querySelector('#upperHalf1').innerHTML = '<img src="/képek/NL_300x300.jpg" alt="lacika" title="lacika" id="fade"></img>';
+        document.querySelector('#reaction').innerHTML = 'Várjál gyerekem hívnak engemet, minjárt visszajövök';
+    }
+    if (audioActive == false && Phone == false && Joeover == false) {
+        document.querySelector("#counter").innerHTML = num;        
+    }
+
 };
 
 setInterval(Counter,1000);
@@ -93,6 +103,13 @@ setInterval(Counter,1000);
             PositiveNitsReactions[0] = `Ügyes vagy már csak ${10 - TappedNum} kérdés maradt hátra!`;
             document.querySelector("#reaction").innerHTML = PositiveNitsReactions[randomNum];
         }
+        else 
+        {
+            document.querySelector("#audio").innerHTML = '<audio src="/Lost.mp3" controls="controls" style="display: none;" autoplay></audio>';
+            document.querySelector("#SCARY").innerHTML = '<img src="/képek/lost_game.png" id="jumpscare2">';
+            document.querySelector("#SCARY").innerHTML += '<a href="quiz_oldal.html" id="ReTry"><button>Vissza!</button></a>';
+            Joeover = true;
+        }
       });
 
 
@@ -143,6 +160,13 @@ setInterval(Counter,1000);
             let randomNum = Math.floor(Math.random() * 5);
             PositiveNitsReactions[0] = `Ügyes vagy már csak ${10 - TappedNum} kérdés maradt hátra!`;
             document.querySelector("#reaction").innerHTML = PositiveNitsReactions[randomNum];
+        }
+        else 
+        {
+            document.querySelector("#audio").innerHTML = '<audio src="/Lost.mp3" controls="controls" style="display: none;" autoplay></audio>';
+            document.querySelector("#SCARY").innerHTML = '<img src="/képek/lost_game.png" id="jumpscare2">';
+            document.querySelector("#SCARY").innerHTML += '<a href="quiz_oldal.html" id="ReTry"><button>Vissza!</button></a>';
+            Joeover = true;
         }
       });
 
@@ -196,6 +220,13 @@ setInterval(Counter,1000);
             PositiveNitsReactions[0] = `Ügyes vagy már csak ${10 - TappedNum} kérdés maradt hátra!`;
             document.querySelector("#reaction").innerHTML = PositiveNitsReactions[randomNum];
         }
+        else 
+        {
+            document.querySelector("#audio").innerHTML = '<audio src="/Lost.mp3" controls="controls" style="display: none;" autoplay></audio>';
+            document.querySelector("#SCARY").innerHTML = '<img src="/képek/lost_game.png" id="jumpscare2">';
+            document.querySelector("#SCARY").innerHTML += '<a href="quiz_oldal.html" id="ReTry"><button>Vissza!</button></a>';
+            Joeover = true;
+        }
       });
 
 
@@ -247,5 +278,12 @@ setInterval(Counter,1000);
             let randomNum = Math.floor(Math.random() * 5);
             PositiveNitsReactions[0] = `Ügyes vagy már csak ${10 - TappedNum} kérdés maradt hátra!`;
             document.querySelector("#reaction").innerHTML = PositiveNitsReactions[randomNum];
+        }
+        else 
+        {
+            document.querySelector("#audio").innerHTML = '<audio src="/Lost.mp3" controls="controls" style="display: none;" autoplay></audio>';
+            document.querySelector("#SCARY").innerHTML = '<img src="/képek/lost_game.png" id="jumpscare">';
+            document.querySelector("#SCARY").innerHTML += '<a href="quiz_oldal.html" id="ReTry"><button>Vissza!</button></a>';
+            Joeover = true;
         }
       });
