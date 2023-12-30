@@ -1,84 +1,88 @@
 const Questions =
 [
     {
-      'difficulty': 'Nagyon könnyű',
-      'question1': 'george.bluth@reqres.in',
-      'question2': 'George',
-      'question3': 'Bluth',
-      'question4': 'https://reqres.in/img/faces/1-image.jpg',
       'answer': 'Nits László'
     },
     {
-        'difficulty': 'Könnyű',
-      'question1': '<p id="answer1">janet.weaver@reqres.in</p>',
-      'question2': '<p id="answer2">Janet</p>',
-      'question3': '<p id="answer3">Chuck Laci</p>',
-      'question4': '<p id="answer4">Nitsubishi</p>',
-      'answer': 'janet.weaver@reqres.in'
+      'difficulty': 'Könnyű',
+      'Title': '<p>Ki a Győri Szakképzési Centrum Jedlik Ányos Gépipari és Informatikai Technikum és Kollégium-nak az igazgatója?</p>',
+      'question1': '<p id="answer1">Horthy Miklós</p>',
+      'question2': '<p id="answer2">Módos Gábor</p>',
+      'question3': '<p id="answer3">Orbán Viktor</p>',
+      'question4': '<p id="answer4">Domonkos László</p>',
+      'answer': 'Módos Gábor'
     },
     {
-        'difficulty': 'Könnyű',
-      'question1': '<p id="answer1">emma.wong@reqres.in</p>',
-      'question2': '<p id="answer1">Emma</p>',
-      'question3': '<p id="answer1">Wong</p>',
-      'question4': '<p id="answer1">https://reqres.in/img/faces/3-image.jpg</p>',
+      'difficulty': 'Könnyű',
+      'Title': '<p>Mikor alapult az előző kérdésben említett Jedlik?</p>',
+      'question1': '<p id="answer1">1922</p>',
+      'question2': '<p id="answer2">1683</p>',
+      'question3': '<p id="answer3">1939</p>',
+      'question4': '<p id="answer4">1903</p>',
+      'answer': '1903'
+    },
+    {
+      'difficulty': 'Közepes',
+      'Title': '<p>Alábbi képek közül melyik Laci?</p>',
+      'question1': '<img></img>',
+      'question2': '<img></img>',
+      'question3': '<img></img>',
+      'question4': '<img></img>',
       'answer': 'bruh'
     },
     {
-        'difficulty': 'Közepes',
-      'question1': 'eve.holt@reqres.in',
-      'question2': 'Eve',
-      'question3': 'Holt',
-      'question4': 'https://reqres.in/img/faces/4-image.jpg',
-      'answer': 'bruh'
+      'Title': '<p>lehetséges 0-val osztani?</p>',
+      'difficulty': 'Közepes',
+      'question1': '<p id="answer1">Nem</p>',
+      'question2': '<p id="answer2">Igen</p>',
+      'question3': '<p id="answer3">Mivan?</p>',
+      'question4': '<p id="answer4">Csak Chuck Norris tud</p>',
+      'answer': 'Csak Chuck Norris tud'
     },
     {
-        'difficulty': 'Közepes',
-      'question1': 'charles.morris@reqres.in',
-      'question2': 'Charles',
-      'question3': 'Morris',
-      'question4': 'https://reqres.in/img/faces/5-image.jpg',
-      'answer': 'bruh'
+      'Title': '<p>Melyik országban található Jedlik?</p>',
+      'difficulty': 'Nehéz',
+      'question1': '<p id="answer1">Zedország</p>',
+      'question2': '<p id="answer2">Ohio</p>',
+      'question3': '<p id="answer3">Észak-Korea</p>',
+      'question4': '<p id="answer4">Magyarország</p>',
+      'answer': 'Magyarország'
     },
     {
+      'Title': '<p>Alábbi képek közül melyik Nits Lászlóé?</p>',
         'difficulty': 'Nehéz',
-      'question1': 'byron.fields@reqres.in',
-      'question2': 'Byron',
-      'question3': 'Fields',
-      'question4': 'https://reqres.in/img/faces/10-image.jpg',
-      'answer': 'bruh'
-    },
-    {
-        'difficulty': 'Nehéz',
-        'question1': 'george.bluth@reqres.in',
-        'question2': 'George',
-        'question3': 'Bluth',
-        'question4': 'https://reqres.in/img/faces/1-image.jpg',
+        'question1': '<img></img>',
+        'question2': '<img></img>',
+        'question3': '<img></img>',
+        'question4': '<img></img>',
         'answer': 'bruh'
       },
       {
+        'Title': '<p>Alábbi kódok küzül melyik követ a tiszta kód elvét?</p>',
         'difficulty': 'Nagyon nehéz',
-        'question1': 'janet.weaver@reqres.in',
-        'question2': 'Janet',
-        'question3': 'Weaver',
-        'question4': 'https://reqres.in/img/faces/2-image.jpg',
+        'question1': '<img></img>',
+        'question2': '<img></img>',
+        'question3': '<img></img>',
+        'question4': '<img></img>',
         'answer': 'bruh'
       },
       {
+        'Title': '<p>Kell pythonban típusosan kódolni?</p>',
         'difficulty': 'Nagyon nehéz',
-        'question1': 'emma.wong@reqres.in',
-        'question2': 'Emma',
-        'question3': 'Wong',
-        'question4': 'https://reqres.in/img/faces/3-image.jpg',
-        'answer': 'bruh'
+        'question1': '<p id="answer1">Nem</p>',
+        'question2': '<p id="answer2">Igen</p>',
+        'question3': '<p id="answer3">Lehet de nem ajánlot</p>',
+        'question4': '<p id="answer4">Kötelezően ajánlot</p>',
+        'answer': 'Kötelezően ajánlot'
       },
       {
+        'Title': '<p>Nits László hol dolgozik éppen?</p>',
         'difficulty': 'Szuper könnyű',
-        'question1': 'eve.holt@reqres.in',
-        'question2': 'Eve',
-        'question3': 'Holt',
-        'question4': 'https://reqres.in/img/faces/4-image.jpg',
-        'answer': 'bruh'
+        'question1': '<p id="answer1">Jedlik Ányos Technikumban</p>',
+        'question2': '<p id="answer2">Parlamenti politikus</p>',
+        'question3': '<p id="answer3">FBI</p>',
+        'question4': '<p id="answer4">KGB</p>',
+        'answer': 'Jedlik Ányos Technikumban'
       }
 ]
 
