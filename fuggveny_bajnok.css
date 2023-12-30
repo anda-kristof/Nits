@@ -83,22 +83,27 @@ body{
   }
 
 #nehezseg{
-    width: 50%;
-    margin: auto 25%;
-    height: 10%;
+    width: 60%;
+    margin: auto 20%;
+    height: 75px;
+    line-height: 75px;
     color: green;
     font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 #right_half{
     width: 48.5%;
     float: right;
     height: 100%;
-    background-color: rgb(154, 206, 206);
+    background-image: url(/képek/Burning2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #kerdes{
-    font-size: 30px;
+    font-size: 25px;
     width: 90%;
     height: 20%;
     border-radius: 30px;
@@ -107,7 +112,7 @@ body{
     outline-style: solid;
     outline-color: rgb(200, 227, 239);
     border: 3px black solid;
-    margin: 5% auto;
+    margin: 5% 5% 0% 5%;
     display:table;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
@@ -129,7 +134,7 @@ h1{
 
 #timer{
     margin: auto 45%;
-    height: 50%;
+    height: 20%;
     width: 10%;
     font-size: 50px;
     color: lightgreen;
@@ -160,7 +165,7 @@ h1{
     display:table;
     display: grid;
     place-items: center;
-    margin: auto 5%;
+    margin: 2% 5%;
     border: 3px black solid;
     width: 40%;
     background-color: aliceblue;
@@ -182,7 +187,7 @@ h1{
     display:table;
     display: grid;
     place-items: center;
-    margin: auto 5%;
+    margin: 2% 5%;
     border: 3px black solid;
     width: 40%;
     background-color: aliceblue;
@@ -198,4 +203,12 @@ h1{
 .valasz2:hover{
     background-color: rgb(90, 90, 200);
     border: 3px black solid;
+}
+
+.valaszKep{
+    height: 125px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
 }
