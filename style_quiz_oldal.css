@@ -1,46 +1,36 @@
 body{
     margin: 5% 10% 0 10%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(19, 14, 44);
-    background-image: url(/képek/sci-fi-deep-space-background-loop-free-video.jpg);
+    background-image: url(képek/warriorBG.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #bevezeto{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: rgb(42, 42, 42);
     text-align: center;
     padding-bottom: 30px;
     font-size: larger;
 }
 
-
-#elso_helyezet{
-    text-align: center;
-    color: #F0bf60;
-    padding-bottom: 100px;
+#bg{
+    background-color: rgba(221, 221, 221, 0.5);
+    border-radius: 30px;
 }
 
-#masodik_helyezet{
-    text-align: center;
-    color: darkgrey;
-    background-image: url(/képek/bg_helyezet.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 100px;
+.pic{
+    max-width: 100%;
+    border: 2px solid rgb(131, 49, 20);
+    border-radius: 20px;
 }
 
-#harmadik_helyezet{
-    text-align: center;
-    color: brown;
-    background-image: url(/képek/bg_helyezet.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 100px;
-}
-
-#nyeremeny img{
-    max-width: 90%;
-    max-height: 90%;
+#trainText{
+    font-size: 30px;
+    margin: 17.5%;
+    font-weight: bold;
 }
 
 .row{
@@ -49,53 +39,61 @@ body{
 
 .container{
     width: 50%;
-    height: 600px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container p{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 25px;
+
+#Questions{
+    display: block;
+}
+#Questions button{
+    font-size: 20px;
 }
 
-#text_right{
-    padding-right: 100px;
-}
-
-#text_left{
-    padding-left: 100px;
-}
-
-/*.container1, .container2{
-    width: 1000px;
-    height: 600px;
-    clear: both;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
-#nits{
+#Answer{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    border: 3px solid rgb(76, 77, 94);
+    background-color: rgb(159, 166, 172);
+    font-size: 20px;
     text-align: center;
-    font-size: 50px;
     font-weight: bold;
+    border-radius: 30px;
+}
+
+.container button{
+    margin: 5% 20%;
+    height: 80px;
+    width: 60%;
+}
+
+#ending{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #button_container{
     width: 100%;
-    height: 600px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
-#button_container:hover{
+/* #button_container:hover{
     background-image: url(/képek/Nits_REDLIGHT.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 button{
     border: 2px solid black;
