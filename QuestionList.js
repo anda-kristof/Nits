@@ -61,10 +61,10 @@ const Questions =
       {
         'Title': '<p>Alábbi kódok közül melyik követ a tiszta kód elvét?</p>',
         'difficulty': '<p class="marginfix" style="color: rgb(209, 2, 2);">Nehézség: Nagyon nehéz</p> <p class="marginfix" id="QuestionsLeft"></p>',
-        'question1': '<img></img>',
-        'question2': '<img></img>',
-        'question3': '<img></img>',
-        'question4': '<img name=""></img>',
+        'question1': '<img id="answer1" class="valaszKep" src="képek/answer1.png">1</img>',
+        'question2': '<img id="answer2" class="valaszKep" src="képek/answer2.png">2</img>',
+        'question3': '<img id="answer3" class="valaszKep" src="képek/answer3.png">3</img>',
+        'question4': '<img name="" id="answer4" class="valaszKep" src="képek/answer4.png">4</img>',
         'answer': 'jo'
       },
       {

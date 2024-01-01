@@ -21,19 +21,7 @@ function StartQuiz() {
         document.querySelector('#ending').innerHTML = '<button onclick="StartQuiz()">Biztos Biztos?</button>';
         TappedNUm++;
     }
-    else if (TappedNUm == 1) {
-        document.querySelector('#ending').innerHTML = '<button id="bounce1" onclick="StartQuiz()">Nagyon biztos vagy benne?</button>';
-        TappedNUm++;
-    }
-    else if (TappedNUm == 2){
-        document.querySelector('#ending').innerHTML = '<button onclick="StartQuiz()">Látom készen állsz, akkor nyomj rám!</button>';
-        TappedNUm++;
-    }
-    else if (TappedNUm == 3){
-        document.querySelector('#ending').innerHTML = '<button id="bounce2" onclick="StartQuiz()">Hazudtam! Ha most kapsz el akkor mehetsz csak tovább >:)</button>';
-        TappedNUm++;        
-    }
-    else{
-        document.querySelector('#ending').innerHTML = '<a href="fuggveny_bajnok.html" id="button_container"><button>Oké oké nyertél, de csak tud hogy nem jelent ez még semmit, mert a Függvény bajnok nem ilyen gyengéknek való mint te!</button></a>';     
+    else {
+        document.querySelector('#ending').innerHTML = '<a href="fuggveny_bajnok.html" id="button_container"><button>Irány a Függvény Bajnokságra!</button></a>';     
     }
 }

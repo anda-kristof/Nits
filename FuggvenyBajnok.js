@@ -43,7 +43,7 @@ function Counter() {
         Phone = true;
         document.querySelector("#audio").innerHTML = '<audio src="/Phone.mp3" controls="controls" style="display: none;" autoplay></audio>';
         document.querySelector('#upperHalf1').innerHTML = '<img src="/képek/NL_300x300.jpg" alt="lacika" title="lacika" id="fade"></img>';
-        document.querySelector('#reaction').innerHTML = 'Várjál gyerekem hívnak engemet, minjárt visszajövök';
+        document.querySelector('#reaction').innerHTML = 'Pillanat, ezt fel kell vennem, most szül a fiam';
     }
     if (audioActive == false && Phone == false && Joeover == false) {
         document.querySelector("#counter").innerHTML = num;        
