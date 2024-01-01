@@ -18,7 +18,8 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 let ismmeg = document.querySelector(".ismmeg");
 let infosect = document.querySelector(".ismmegengem");
-ismmeg.addEventListener("click",() =>{
+
+let laciInfo = () => {
     let h1 = document.createElement("h1");
     h1.innerHTML = "Szia, Laci vagyok!" 
     let p1 = document.createElement("p");
@@ -28,7 +29,10 @@ ismmeg.addEventListener("click",() =>{
     infosect.appendChild(h1);
     infosect.appendChild(p1);
     infosect.appendChild(p2);
-});
-let laciInfo = () => {
-    
 }
+ismmeg.addEventListener("click", laciInfo);
+
+let nitsifycorner = document.querySelector(".nitsifysticky");
+nitsifycorner.addEventListener("click", () => {
+    console.log("jel")
+})

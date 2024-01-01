@@ -42,6 +42,66 @@ body{
     color: white;
     
 }
+.nitsifysticky{
+   
+    background-color: black;
+    width: 350px;
+    height: 100px;
+    position: sticky;
+    margin-left:auto;
+    top: 30px;
+    border-radius: 50px;
+    border: green 1px solid;
+    transition: 0.3s;
+    
+}
+.nitsifysticky:hover{
+    box-shadow: green 1px 1px 30px 1px;
+}
+.nitsifykartya{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 1200px;
+    border-top: 2px solid green;
+}
+.nitsifygomb{
+width: 20%;
+height: 100px;
+margin-left: 40%;
+margin-right: 40%;
+font-size: 40px;
+font-weight: 1000;
+margin-bottom: 100px;
+background-color: rgb(57, 184, 57);
+border-radius: 30px;
+transition: 0.3s;
+
+}
+.nitsifygomb:hover{
+    box-shadow: green 1px 1px 40px 1px;
+    border: none;
+}
+.nitsifykartya .nitsifybottom{
+    float: left;
+    margin-top: 250px;
+}
+.nitsifykartya .nitssing{
+    float: right;
+}
+.nitsifykartya img{
+    width: 30%;
+}
+.nitsifysticky img{
+    width: 40%;
+    float: left;
+}
+.nitsifytext{
+    width: 60%;
+    float: right;
+    font-size: 10px;
+    color: rgb(50, 198, 50);
+}
 
 .hidden{
     opacity: 0;
