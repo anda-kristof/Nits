@@ -1,38 +1,105 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nits kurzus</title>
+    <script src="https://kit.fontawesome.com/02dab46b51.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="kurzus.css">
     <script src="kurzus.js" defer></script>
 </head>
+
 <body>
+    <div class="header">
+        <ul class="navbar">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#courses">Kurzusok</a></li>
+            <li><a href="#rews">Tanúvallomások</a></li>
+        </ul>
+        <div class="headergombok">
+            <a href="#" class="joinnow"><button>JOIN NOW</button></a>
+        </div>
+    </div>
     <img src="/képek/Nits_logo.png" class="logo" alt="nits" title="nits">
-                    
-    <div class="fodder"></div>
+
+
+
+    <h1 class="title">PROGRAMMING IS <b>A SKILL</b></h1>
+    <h2 class="title">I will teach you how to <b><b>master it</b></b></h2>
     
-    <h1 class="title">Ultimate NIts kurzus</h1>
-    <h2 class="title">Az igazi programozás</h2>
-    <video width="1000" height="480" controls> 
-        <source src="/videók/mp4_placeholder.mov" type="video/mp4">
+    <video width="1000" height="480" controls class="myvid">
+        <source src="/videók/NITS LÁSZLÓ VARÁZSLÓKÉPZŐ.mov" type="video/mp4">
     </video>
-    <button>A kurzusra</button>
-    
+    <button class="joinlac">JOIN LACI's VARÁZSLÓKÉPZŐ</button>
+
     <div class="fodder"></div>
-    
-    <img src="/képek/nuh_uh.png" alt="nuh_uh" title="nuh uh">
-        
+
+    <img src="/képek/nuh_uh.png" alt="nuh_uh" title="nuh uh" class="nitrejuni">
+    <h2 class="fade">A Budapesti Zseniképző gimnáziumok <b>NEM JÓK!</b></h2>
+
     <div class="fodder"></div>
-    
-    <div id="bevezeto">
+    <div class="update">
+        <h2 class="fade ferjel">BEMUTATJUK</h2>
+        <h1><b>HATALMAS FEJLESZTÉS</b></h1>
+        <h3 class="fade ferjel"><b>Képzeld el , hogy hozzáférésed van tapasztalt, vérprofi mentorokhoz</b>, akik megmutatják lépésről-lépésre lefektetett bevált titkos tervrajzaikat,<br> amivel te is a tisztakód útjára léphetsz...</h3>
+        <h3 class="fade ferjel">Pontosan ez vár rád a <b>VARÁZSLÓKÉPZŐMBEN.</b></h3>
+    </div>
+    <div class="features" id="features">
+        <div class="circle"></div>
+        <div class="line"></div>
+        <div class="sidesection">
+            <img src="/képek/chuckmath.png" alt="chuck" class="ls1">
+            <div class="rside rs1">
+                <img src="/képek/timeline-icon01.svg" alt="icon" class="smallsize">
+                <h1>TANULJ ÖRÖKREVALÓ <b>MATEMATIKAÉLETLECKÉKET</b></h1>
+                <ul class="fade">
+                    <li>oszthatóság <b>0-val</b></li>
+                    <li><b>Sajátítsd el</b> az osztóharmonikus prímszámok beli gondolkozást</li>
+                    <li><b>Tanulj meg döntést hozni</b>, saját LNKO függvényed segítségével</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidesection">
+            <img src="/képek/moodle.png" alt="mudli" class="ls2">
+            <div class="rside rs2">
+                <img src="/képek/Group-427319405.webp" alt="icon" class="smallsize">
+
+                <h1>TARTOZZ <b>VALAHOVA</b></h1>
+                <ul class="fade">
+                    <li><b>Ünnepeld sikereidet</b>, és sirasd kudarcaidat, olyanokkal, akik megértik</li>
+                    <li>Tanulj programozni <b>hasonlógondolkozású</b> emberekkel</li>
+                    <li><b>Szerezz barátokat</b> a Moodle nevű társasjátékban</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidesection">
+
+
+            <img src="/képek/nitspointing.png" alt="nics" class="ls3">
+            <div class="rside rs3">
+                <img src="/képek/Group-427319414.webp" alt="icon" class="smallsize">
+                <h1>HOZZÁFÉRÉS <b>A PÉLDAKÉPEIDHEZ</b></h1>
+                <ul class="fade">
+                    <li>A Mentorod <b>hyper-sikeres </b>a tudományaiban</li>
+                    <li>Mentorálás az utad <b>minden lépésénél</b></li>
+                    <li><b>szemtől szembeni tanácsok</b> a tudomány mesterétől</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <button class="joinlac">JOIN LACI's VARÁZSLÓKÉPZŐ</button>
+
+    <!-- <div id="bevezeto">
         <h1>A legjobb programozás</h1>
         <h2>A világ egyik legesleg érdekesebb és modernebb kurzusa, amit még életében nem látott</h2>
         <h2>A nits kurzus életét megfogja változtatni és instant a világ top programozójává lehetsz!</h2>
-    </div>
-        
-    <div class="fodder"></div>
-    
+    </div> -->
+
+
+
     <!-- not sure hogy ez bent legyen
          <div class="row">
         <div class="container">
@@ -43,117 +110,148 @@
         </div>
     </div> -->
 
-    <h1>Mit fogsz megtanulni?</h1>
-        <div class="big_container">
-            <h1>Színsávozni</h1>
-            <h2>Lépj be a csodálatos típusos színsáv világába Nits Lászlóval!</h2>
-        </div>
+    <h2 class="fade ferjel">A LEGFRISSEBB TEKNOLÓGIÁK</h2>
+    <h1><b>AMIT TANULNI FOGSZ</b></h1>
+    <h2 class="fade ferjel">Amikor egy új teknológia <b>forradalmasítja a piacot</b>,</h2>
+    <h2 class="fade ferjel"><b>LACI VARÁZSLÓKÉPZŐJE</b> lesz az első és egyetlen hely, ahol megtanítják,<br> <b>hogyan használhatod előnyödre.</b></h2>
+    <h2 class="fade ferjel">De a mi tanulóink inkább prímszámokat számolnak mert az jó nekik</h2>
+    <div class="courses ferjel" id="courses">
+
         <div class="row">
-            <div class="container-right">
-                <h1>profi python</h1>
-                <h2>Egy kis degrade de még mindig lehet típusot használni ami azt jelenti hogy ez jó!</h2>
+            <div class="container">
+                <h1><i class="fa-solid fa-staff-snake"></i>PYTHON IDOMÍTÁS TÍPÚSOKRA</h1>
+                <h2>A Python típusos nyelv, de mindenki rosszul használja. Egy kis degrade de még mindig lehet típust használni ami azt jelenti hogy kell!</h2>
+                <img src="/képek/pythontype.png" alt="kurzus">
             </div>
-            <div  class="container-left">
-                <h1>html készítés</h1>
-                <h2>Megtanulsz csodás oldalakat csinálni ami életed legagyobb öröme lesz!</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div  class="container-right">
-                <h1>Adatbázis kezelés</h1>
-                <h2>Megtulsz hogy kell videótékában hogy kell azt megcsinálni hogy ha a színészek 60% halott és rendesen kiadja az adatokat!</h2>
-            </div>
-            <div  class="container-left">
-                <h1>Tiszta kód elve</h1>
-                <h2>Programozás tiszta kód elve olyan mint a töri vázlat de könyv nélkül! És ha csak egy csontváz van akkor nem ér semmit!!!</h2>
+            <div class="container">
+                <h1><i class="fa-solid fa-diagram-project"></i>FÜGGVÉNY FÜGGVÉNYEZÉS</h1>
+                <h2>Megtanulsz 2 számot összeadni mátrixban 8 függvény segítségével, hogy ne legyen 2 sornál hosszabb a salátakódod.</h2>
+                <img src="/képek/fuggvenyek.png" alt="kurzus">
             </div>
         </div>
         <div class="row">
-            <div  class="container-right">
-                <h1>HOgyan vegyenek fel állásrá 101tip</h1>
-                <h2>Tudással még nem érz semmit a programozás világában, ezért megkell tanulnod hogy kell megszerezni egy jó állást. egy 69 órás hosszú Nits László podcasttal mindent megfogsz tudni!</h2>
+            <div class="container">
+                <h1><i class="fa-solid fa-database"></i>ADATBÁZIS KEZELÉS</h1>
+                <h2>Megtanulsz hogy kell videótékában  azt megcsinálni hogy ha a színészek 60% halott az anyja és rendesen kiadja az adatokat!</h2>
+                <img src="/képek/adatbazis.png" alt="kurzus">
+
             </div>
-            <div  class="container-left">
-                <h1>0-val osztani</h1>
-                <h2>Bár mégha olyan gazdag lennél mint Elon Musk de az életedből mindig hiányzik valami. És na ná hogy 0-val osztani. Nits megtanít téged ezt a mesteri technikát hogy kell 0-val számolni amit elméletileg csak Chuck noris tud</h2>
+            <div class="container">
+                <h1><i class="fa-solid fa-code"></i>TISZTAKÓD ELVE</h1>
+                <h2>Csak egy dolog van ami fontosabb annál, hogy tudsz e programozni, mégpedig, hogy tiszta-e a kódod.</h2>
+                <img src="/képek/tisztakod.png" alt="kurzus">
             </div>
         </div>
-                
-    <div class="fodder"></div>
-    
-
         <div class="row">
-            <div class="container2" id="left_float">
-                <h2>Miért vegyél részt a kurzuson?</h2>
+            <div class="container">
+                <h1><i class="fa-solid fa-moon"></i>ALVÁSZAVAR</h1>
+                <h2>Alvászavarral küzdesz? Vagy csak túl drága az altatóorvos a szívműtéteden? Mi több száz óra videóanyagot biztosítunk, személyesen Nits László kommentálásával monospace betű hang típúsban. </h2>
+                <img src="/képek/altato.png" alt="kurzus">
             </div>
-            <div class="container2" id="right_float">
-                <p>Nits Laci több mint 30 éve mesteríti a programozás terén.</p>
-                <p>Ha azt érzed hogy nem tudod honnan kezd a programozást akkor ez tökéletesen neked illő! Forradalmi elvek programozásra amelyek munkahelyedben előfog segíteni, ezek közül rendkívülie kiemelve a tiszta kód elvét és Github használatát.</p>
-                <p>Ráadásul ajándékként megtanulhatsz hogy kell 0-val számolni!!! (amelyet a világon csak NIts és Chuck Norris tud)</p>
+            <div class="container">
+                <h1><i class="fa-solid fa-plus-minus"></i>MATEKÓRA LACIVAL</h1>
+                <h2>Kíváncsi vagy, hogy hogyan hívják azt amit hozzáadsz valamihez? Érdekel az osztóharmonikus és tökéletes számok világa? Esetleg azt hitted nem lehet 0-val osztani? ITT A HEYLED!</h2>
+                <img src="/képek/matek.png" alt="kurzus">
             </div>
         </div>
-                
-        <div class="fodder"></div>
+    </div>
+
+    <h1 class="ferjel"><b><i class="fa-solid fa-hand-holding-dollar" style="color: gold; letter-spacing:30px; font-weight: 1000;"></i>NEW SKILLS</b></h1>
+    <h2 class="fade ferjel">Folyamatosan bővítjük <b>programokkal</b> és <b>új modern Késségekkel</b> kurzusunkat, amiket eddig nem tudtunk nyilvánossgágra hozni.<br>Csatlakozz Laci Varázslóképzőjéhez és fejleszd magad <b>most</b>.</h2>
+
+    <h2 class="fade ferjel">VARÁZSLÓKÉPZŐ EREDMÉNYEK</h2>
+    <h1>AZ ÉN DIÁKJAIM <b>TAROLNAK</b></h1>
+
+    <div class="gallery">
+        <img class="rewgallery" src="/képek/reviewgallery.png" alt="gallery">
+    </div>
+    <button class="joinlac">JOIN LACI's VARÁZSLÓKÉPZŐ</button>
+
+
+
+    <h2 class="ferjel fade">A MI DIÁKJAINK FEJLŐDNEK</h2>
+    <h1>TANULÓ <b>VÉLEMÉNYEK</b></h1>
+
+    <div class="textrew" id="rews">
+        <div class="rcontainer">
+            <img src="/képek/bence.png" alt="bencebacsi">
+            <div class="rew">
+                <h1><b>Balogh Bence , 29</b></h1>
+                <h2><b>"</b>Sokáig nem tudtam programozni, próbálkoztam mindenhogyan, de egyszerüen nem ment.</h2>
+                <h2>Reménytelennek éreztem magam.</h2>
+                <h2>De egyszer csak megjelent egy ember az életemben, és minden megváltozott. El sem tudnám képzelni a jövőmet, ha nem találkoztam volna vele. Ő volt Nits László, A mentorom, a tanárom, a példaképem, és most kiválasztottnak érzem magam mivel olyan hihetetlen pozícióba kerültem, hogy barátom, és kollégám is.
+                Mindent neki köszönhetek.</h2>
+                <h2>Ez a kurzus sokak életét fogja megváltoztatni, de csak azok igazán méltók rá, akik az én hibámat nem elkövetve sikeresen elsajátítják a github, python típusozás, és függvényezés tudományát.</h2>
+                <h2>Tietek a jövő! <b>,,</b></h2>
+            </div>
+        </div>
+        <div class="rcontainer">
+            <img src="/képek/elon.png" alt="elon">
+            <div class="rew">
+                <h1><b>Elon Musk , 52</b></h1>
+                <h2><b>"</b>This program is insane!!</h2>
+                <h2>it helped me build my two busineses, Tesla and SpaceX, by clean code principals. I couldn't calculate for my rockets before the Chuck Norris-Nits Laszlo advanced Math Campus.</h2>
+                <h2>I recommend this course for every young individual, who have the desire to become successful and a FunctionChampion.</h2>
+                <h2>The man who teaches you, is a genious, I have profound respect for everything he has done. Laszlo is changing lifes every day, and I belive everyone appreciate him, and know deep in their heart, that the impact he is having to humanity with this course is unbeliveable. While there are people like Laszlo we can know, there is still hope .</h2>
+                <h2>This course was the secret for my succes. <b>,,</b></h2>
+            </div>
+        </div>
+    </div>
+
+    <h1 >A VÁLASZTÁS A <b>TIÉD</b></h1>
+    <div class="kurzus_block fade">
+        <h1><b>TAKE ACTION</b></h1>
+        <h2><b>Most kell cselekedned.</b></h2>
+        <h2><span style="text-decoration: line-through;">$299</span> <b class="gold">$99.99</b></h2>
+        <ul>
+            <li>Egyszerű lépésről-lépésre vezető tananyag</li>
+            <li>Több mint 20 esszenciális késség</li>
+            <li>Hozzáférés hyper-sikeres mester mentorhoz</li>
+            <li>Teljesen kezdőknek is</li>
+            <li>Elérhető 200+ visual studio code DLC</li>
+            <li>VSC Python típúsra idomító Nits modpackek</li>
+            <li>Bármikor lemondható, kockázat mentes!</li>
+            <li>$99.99/hó örökre</li>
+        </ul>
+        <button class="joinlac">JOIN LACI's VARÁZSLÓKÉPZŐ</button>
+        <h2>
+            <i class="fa-solid fa-dollar-sign"></i> Lock-in your price before it increases.<br> Act fast.</h2>
+    </div>
+    <h1><b>VAGY NE CSINÁLJ SEMMIT..</b></h1>
+    <h2><b>Menj Nézz Netflixet. Dolgozz a Mekiben...</b></h2>
+
+    <h1 class="haromszog"><i class="fa-solid fa-triangle-exclamation "></i></h1>
+    <h1><b>LOCKOLD AZ ÁRAT $99.99-EN</b></h1>
+    <h2><b>Az ár hamarosan $299 lesz havonta, ez az utolsó esélyed.</b></h2>
     
-        <h1>Tanítványok a kurzus után:</h1>
-        <div class="sikeres_block">
-            <div class="sikeres_block_inner_left">
-                <h1>Profi programozó</h1>
-                <p>Benya, ?? hu</p>
-                <p>Young Bence nits mester segítségével már mesteri programozásban, s a Győri Jdzsedlik Ányosban tanít.</p>
-            </div>
-            <div class="sikeres_block_inner_right">
-                <img src="/képek/Beny.jpg" alt="Benya" title="Benya">
-            </div>
-        </div>
-        <div class="sikeres_block">
-            <div class="sikeres_block_inner_left">
+    <h2 class="fade ferjel">Többszázezer diák csatlakozott már <b>NITS LACI VARÁZSLÓKÉPZŐJÉHEZ</b>,<br> és már úton vannak a felemelkedés felé.</h2>
+    <h2 class="fade ferjel">Csatlakozz mielött az havidíj emelkedik $299-re.<br> Ne hagyd ki ezt a lehetőséget.</h2>
+    <button class="joinlac">JOIN LACI's VARÁZSLÓKÉPZŐ</button>
 
+
+    <h1 class="ferjel">Gyakori kérdések</h1>
+   
+    <div class="faq">
+        <div class="question q1">
+            <h2><b>Ki tanítja a Kurzust?</b></h2>
+             </div><div class="ans a1">
+                <h1>Nits László</h1>
             </div>
-            <div class="sikeres_block_inner_right">
-
+       
+        <div class="question q2">
+            <h2><b>Van, aki képes nullával osztani?</b></h2>
+           </div> <div class="ans a2">
+                <h1>Igen, Chuck Norris.</h1>
             </div>
-        </div>
-                
-        <div class="fodder"></div>
-    
-        <h1>Tanulók feedbackje a kurzuról</h1>
-        <div class="kepek">
-
-        </div>
-                
-        <div class="fodder"></div>
-    
-        <h1 id="Gold">Készen állsz a kurzusra?</h1>
-        <div class="kurzus_block">
-            <h1>Igenis kapitány!</h1>
-            <h2>EZ NEKEM NAGYON KELL!!!!!</h2>
-            <h2>Most <span style="text-decoration: line-through;">99999999</span> helyett csak 50000€!</h2>
-            <ul>
-                <li>Egyszerűen érthető tanórák!</li>
-                <li>Több mint 300 online tanóra!</li>
-                <li>Hónaponta 5 percnyi beszéd Lacival!</li>
-                <li>Elérhető visual studio Nits extension pack</li>
-                <li>100% biztonságos, bármikor kiléphet!</li>
-            </ul>
-            <button>A kurzusra</button>
-        </div>
-
-                        
-    <div class="fodder"></div>
-    
-
-        <h1>Gyakran kérdezett kérdések</h1>
-        <div class="row2">
-            <div class="big_container2">
-                <p>Noob is résztvehet?</p>
+        
+        <div class="question q3">
+            <h2><b>Az normális ha sziveszterkor ezt a szart kell csinálnom?</b></h2>
+            </div><div class="ans a3">
+                <h1>Nem.</h1>
             </div>
-            <div class="big_container2">
-
-            </div>
-            <div class="big_container2">
-
-            </div>
-        </div>
+        
+    </div>
+    <div class="lastdiv"></div>
 </body>
+
 </html>
