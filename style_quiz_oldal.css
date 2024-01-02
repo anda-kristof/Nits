@@ -7,6 +7,15 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+.universe{
+    position: absolute;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.372);
+    border-radius: 50px;
+}
+.universe:hover{
+    box-shadow: blueviolet 1px 1px 30px 1px;
+}
 
 #bevezeto{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;

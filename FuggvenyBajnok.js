@@ -11,8 +11,8 @@ let TappedNum = 0;
 let Phone = false;
 let Joeover = false;
 
-const NegativeNitsReactions = ["Nagyon lassan válaszolsz gyerekem , nagyanyám is gyorsabb volt nálad! FAILURE!!!!", "Hát fiacskám ez nagyon lassú ,hogy leszel így Függvény Bajnok? Most azonnal sétálj az asztal körül 1 kört!!!", "Ha ilyen sebességgel haladsz tovább akkor egy alá alát fogsz kapni!","Azt hiszed hogy Chuck Norris vagy aki nulla után is tud quizt csinálni?","Nagyon csalódott vagyok benned fiacskám, remélem szabad idődben többet tanulsz"];
-const NeutralNItsReaction = ["Gyerekem megy ez idő döntened kell!", "Ihaj Csuhaj a hétszáz mindenit, repül az idő de te még nem döntöttél!", "Ilyen egyszerű kérdésre nem kéne ennyi időt szánni", "Ennyi idő alatt már többször elosztottam volna a nulát", "Remélem nem fogsz csalódást okozni nekem..."]
+const NegativeNitsReactions = ["Nagyon lassan válaszolsz gyermekem , nagyanyám is gyorsabb volt nálad! FAILURE!!!!", "Hát fiacskám ez nagyon lassú ,hogy leszel így Függvény Bajnok? Most azonnal sétálj az asztal körül 1 kört!!!", "Ha ilyen sebességgel haladsz tovább akkor egy alá alát fogsz kapni!","Azt hiszed hogy Chuck Norris vagy aki nulla után is tud quizt csinálni?","Nagyon csalódott vagyok benned fiacskám, remélem szabad idődben többet tanulsz"];
+const NeutralNItsReaction = ["Gyermekem megy ez idő döntened kell!", "Ihaj Csuhaj a hétszáz mindenit, repül az idő de te még nem döntöttél!", "Ilyen egyszerű kérdésre nem kéne ennyi időt szánni", "Ennyi idő alatt már többször elosztottam volna a nulát", "Remélem nem fogsz csalódást okozni nekem..."]
 const PositiveNitsReactions = [`Ügyes vagy már csak 9 kérdés maradt hátra!`, "Tudtam hogy megtudod csinálni, egynap majd utol fogsz érni!", "Olyan profi leszel mint én fiacskám, már hullanak a könnyeim", "Büszke vagyok rád, Szerinem igazgató úr is egyet értene velem", "Már majdnem utoléred Chuck Norrist csak így tovább!"];
 
 
