@@ -3,6 +3,16 @@ body{
     background-color: black;
     color: rgb(69, 160, 69);
 }
+.universe{
+    position: absolute;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.372);
+    border-radius: 50px;
+    top: 0;
+}
+.universe:hover{
+    box-shadow: blueviolet 1px 1px 30px 1px;
+}
 
 .header img{
     width: 50%;

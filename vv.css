@@ -5,6 +5,15 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
+.universe{
+    position: absolute;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.372);
+    border-radius: 50px;
+}
+.universe:hover{
+    box-shadow: blueviolet 1px 1px 30px 1px;
+}
 h1{
     margin:  200px auto;
     margin-bottom: 300px;
