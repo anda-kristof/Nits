@@ -59,7 +59,7 @@ const Questions =
         'answer': 'jo'
       },
       {
-        'Title': '<p>Alábbi kódok közül melyik követ a tiszta kód elvét?</p>',
+        'Title': '<p>Az alábbi képeken 2 szám összeadásának kódja látható, melyik követi a tiszta kód elvét?</p>',
         'difficulty': '<p class="marginfix" style="color: rgb(209, 2, 2);">Nehézség: Nagyon nehéz</p> <p class="marginfix" id="QuestionsLeft"></p>',
         'question1': '<img id="answer1" class="valaszKep" src="képek/answer1.png">1</img>',
         'question2': '<img id="answer2" class="valaszKep" src="képek/answer2.png">2</img>',
